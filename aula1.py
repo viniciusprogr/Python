@@ -78,3 +78,11 @@ print(consta_1)
 
 consta_1 = (1 + 1) ** (5 + 5)
 print(consta_1)
+
+# operadores de comparação
+print(10 == 10) # comparação de igualdade, retorna True
+print(10 != 5) # comparação de desigualdade, retorna True
+print(10 > 5) # comparação de maior que, retorna True
+print(10 < 5) # comparação de menor que, retorna False
+print(10 >= 10) # comparação de maior ou igual, retorna True
+print(10 <= 5) # comparação de menor ou igual, retorna False
