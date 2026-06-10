@@ -86,3 +86,50 @@ print(10 > 5) # comparação de maior que, retorna True
 print(10 < 5) # comparação de menor que, retorna False
 print(10 >= 10) # comparação de maior ou igual, retorna True
 print(10 <= 5) # comparação de menor ou igual, retorna False
+
+#Operadores lógicos
+
+print('-------------------------------------') # operador lógico AND, retorna True se ambos os operandos forem True
+print(True and True) # operador lógico AND, retorna True se ambos os operandos forem True
+print(True and False) # operador lógico AND, retorna False se um dos operandos for False
+print(True or False) # operador lógico OR, retorna True se um dos operandos for True
+print(False or False) # operador lógico OR, retorna False se ambos os operandos forem False
+print(not True) # operador lógico NOT, retorna False se o operando for True
+print(not False) # operador lógico NOT, retorna True se o operando for False
+print('-------------------------------------')
+
+entrada = input("Digite algo: ")
+senha_digitanada = input("Digite a senha: ")
+
+senha = "123456"
+if( entrada == "verdadeiro" or entrada == "e" ) and senha_digitanada == senha:
+    print("A condição é verdadeira")
+else:
+    print("A condição é falsa")
+    
+
+print('-------------------------------------')
+
+#operadores in e not in
+print('a' in 'banana') # operador in, retorna True se o valor estiver presente na string
+print('x' in 'banana') # operador in, retorna False se o valor não estiver presente na string
+print('a' not in 'banana') # operador not in, retorna False se o valor estiver presente na string
+print('x' not in 'banana') # operador not in, retorna True se o valor não estiver presente na string
+
+
+
+print(30 * "-")
+
+# interpolação de strings e f-strings
+nome = "luiz"
+preco = 1000.894145155
+variavel = '%s, o preço é R$ %.2f' % (nome, preco) # interpolação de strings com o operador % e o tipo de dado, %s para string e %f para float
+print(variavel)
+
+# formataçao de strings e hexadecimal
+variavel = 'abc'
+print(f'{variavel: >10}.') # interpolação de strings com f-strings, o valor da variável é inserido entre chaves {}
+print(f'{variavel: <10}.') 
+print(f'{variavel}.') 
+
+
