@@ -148,3 +148,7 @@ print('Ola Mundo'[4:]) # fatiamento de strings, retorna a partir do índice 4 at
 print('Ola Mundo'[:5]) # fatiamento de strings, retorna do início da string até o índice 5 (exclusivo)
 print('Ola Mundo'[3:8]) # fatiamento de strings, retorna do índice 3 até o índice 8 (exclusivo)
 
+#len serve para contar o número de caracteres de uma string
+variavel = 'Ola Mundo'
+print(len(variavel)) # retorna o número de caracteres da string
+print(len(variavel[8])) # retorna o número de caracteres da string
