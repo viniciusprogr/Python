@@ -126,10 +126,25 @@ preco = 1000.894145155
 variavel = '%s, o preço é R$ %.2f' % (nome, preco) # interpolação de strings com o operador % e o tipo de dado, %s para string e %f para float
 print(variavel)
 
+#hexadecimal
+print('o hexadecimal de 255 é %04x' % 1500) # 
+
 # formataçao de strings e hexadecimal
 variavel = 'abc'
 print(f'{variavel: >10}.') # interpolação de strings com f-strings, o valor da variável é inserido entre chaves {}
 print(f'{variavel: <10}.') 
-print(f'{variavel}.') 
+print(f'{variavel: ^10}.')
+print(f'{1000.894145155:.2f}') # formatação de números com f-strings, o valor é formatado com vírgula como separador de milhar e 2 casas decimais
+print(f'{1000.894145155:0=+10,.2f}') # formatação de números com f-strings, o valor é formatado com vírgula como separador de milhar, 2 casas decimais, sinal de + para números positivos e preenchimento com zeros à esquerda para ocupar 10 caracteres
 
+#fatiamento de strings
+#012345678
+#Ola Mundo
+#-987654321
+
+print('Ola Mundo'[0]) # fatiamento de strings, retorna o primeiro caractere da string
+print('Ola Mundo'[1]) # fatiamento de strings, retorna o segundo caract
+print('Ola Mundo'[4:]) # fatiamento de strings, retorna a partir do índice 4 até o final da string
+print('Ola Mundo'[:5]) # fatiamento de strings, retorna do início da string até o índice 5 (exclusivo)
+print('Ola Mundo'[3:8]) # fatiamento de strings, retorna do índice 3 até o índice 8 (exclusivo)
 
